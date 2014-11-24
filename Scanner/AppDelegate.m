@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+     ///  需要导入类库5个——————http://www.open-open.com/lib/view/open1370663829976.html ///........
     return YES;
 }
 

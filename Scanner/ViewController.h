@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZBarSDK.h"
+@interface ViewController : UIViewController<ZBarReaderDelegate>
 
-@interface ViewController : UIViewController
 
-
+@property (strong, nonatomic)UILabel *label;
+@property (strong, nonatomic)UIImageView *imageV;
 @end
 
